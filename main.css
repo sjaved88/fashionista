@@ -1,0 +1,58 @@
+ * {
+   margin:0%;
+   padding: 0%; 
+   background-color:aqua;
+   opacity: 1; 
+} 
+
+h1 {
+   text-align: center;
+   font-size: 60px;  
+}
+h2 {
+    text-align: center;
+    font-size: 50px;
+}
+.fashion{
+    color:gold;
+    font-style: italic;
+    font-size: 30px;
+    text-align: center;
+}
+.fashion2{
+    color:red;
+    font-style: italic;
+    text-align: center;
+    font-size: 30px;
+}
+.fashion3{
+    color:red;
+    font-style: italic;
+    text-align: center;
+    font-size: 30px; 
+}
+.navbar ul li{
+    width: 85%;
+    margin: auto;
+    padding: 15px 0;
+    display: block;
+    align-items: center;
+}
+.navbar ul li{
+    text-decoration: none;
+    color:floralwhite;
+}
+.navbar ul li::after{
+    content:'';
+    height: 2px;
+    width: 0%;
+    background: #00962d;
+    position: absolute;
+    left:0;
+    bottom: -10px;
+    transition: 0.5%;
+
+}
+.navbar ul li :hover ::after{
+width: 100%;
+}

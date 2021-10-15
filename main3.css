@@ -1,0 +1,42 @@
+* {
+    background-color: rgba(89, 226, 250, 0.884);
+}
+
+h1{ 
+    text-align: center;
+    color: rgb(25, 0, 255);
+}
+.fashion{
+    text-align: center;
+    color: purple;
+    font-style: italic;
+    font-size: 20px;
+}
+.fashion1{
+    text-align: center;
+    color: purple;
+    font-style: italic;
+    font-size: 20px;
+}
+.navbar ul li{
+    width: 85%;
+    margin: auto;
+    padding: 15px 0;
+    display: block;
+    align-items: center;
+}
+.navbar ul li{
+    text-decoration: none;
+    color:floralwhite;
+}
+.navbar ul li::after{
+    content:'';
+    height: 2px;
+    width: 0%;
+    background: #00962d;
+    position: absolute;
+    left:0;
+    bottom: -10px;
+    transition: 0.5%;
+
+}

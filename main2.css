@@ -1,0 +1,40 @@
+* {
+    background-color:deeppink ;
+}
+h1{
+    text-align: left;
+    font-style: italic;
+    color: gold;
+}
+h2{
+    text-align: left;
+    font-style: italic;
+    color: gold;
+}
+h3{
+    text-align: left;
+    font-style: italic;
+    color: gold;
+}
+.navbar ul li{
+    width: 85%;
+    margin: auto;
+    padding: 15px 0;
+    display: block;
+    align-items: left;
+}
+.navbar ul li{
+    text-decoration: none;
+    color:floralwhite;
+}
+.navbar ul li::after{
+    content:'';
+    height: 2px;
+    width: 0%;
+    background: #00962d;
+    position: absolute;
+    left:0;
+    bottom: -10px;
+    transition: 0.5%;
+
+}
